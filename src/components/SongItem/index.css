@@ -1,0 +1,43 @@
+.listItem {
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  justify-content: space-between;
+}
+.container1 {
+  display: flex;
+  width: 100%;
+}
+.thumbnailCSS {
+  width: 17%;
+  margin-bottom: 13px;
+  margin-right: 15px;
+}
+.nameAndGenre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.songName {
+  margin: 0px 0px 13px 0px;
+}
+.genre {
+  margin: 0px;
+  color: #3b82f6;
+}
+.durationAndDelete {
+  display: flex;
+  align-items: center;
+  width: 10%;
+  justify-content: space-between;
+}
+.trashBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 9px 10px 9px 10px;
+}
+button.trashBtn:hover {
+  background-color: rgba(255, 255, 255, 0.354);
+  border-radius: 50%;
+}
